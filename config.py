@@ -24,7 +24,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "links-sharing")
 
 #Default
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
-START_MSG = os.environ.get("START_MESSAGE", "") #No Need keep it blank
+START_MSG = os.environ.get("START_MESSAGE", "Hello user's I Can Store Private channels link In Specified And Other Users Can Access It From Special Link.") #No Need keep it blank
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "7660990923").split()):
